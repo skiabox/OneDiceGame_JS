@@ -70,7 +70,7 @@ document.querySelector('.btn-hold').addEventListener('click', function() {
         document.querySelector('#score-' + activePlayer).textContent = scores[activePlayer];
 
         //Check if player won the game
-        if (scores[activePlayer] < 20)
+        if (scores[activePlayer] < 100)
             nextPlayer();
         else
         {
